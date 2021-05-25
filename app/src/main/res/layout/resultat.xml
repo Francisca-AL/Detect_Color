@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8EBF5"
+    tools:context=".ResultatActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ResultatActivity"
+        tools:layout_editor_absoluteX="-49dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="123dp"
+            android:layout_height="108dp"
+            app:srcCompat="@android:drawable/picture_frame"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="678dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="123dp"
+            android:layout_height="108dp"
+            app:srcCompat="@android:drawable/picture_frame"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="678dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="123dp"
+            android:layout_height="108dp"
+            app:srcCompat="@android:drawable/picture_frame"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="293dp"
+            tools:layout_editor_absoluteY="678dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="289dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:text="  Couleurs opposées  "
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="604dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="123dp"
+            android:layout_height="108dp"
+            app:srcCompat="@android:drawable/picture_frame"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="219dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="289dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:text="  Couleurs associées  "
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="383dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="245dp"
+            android:layout_height="56dp"
+            android:autoText="false"
+
+            android:gravity="center"
+            android:text="Nom_Couleur"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="236dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="RGB"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="442dp"
+            android:layout_height="68dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/capture_d_cran_2021_05_25___10_25_49"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="-10dp"
+            tools:visibility="visible"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="201dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Dalto Wallet"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="123dp"
+            android:layout_height="108dp"
+            app:srcCompat="@android:drawable/picture_frame"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="123dp"
+            android:layout_height="108dp"
+            app:srcCompat="@android:drawable/picture_frame"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <vector
+            android:layout_width="361dp"
+            android:layout_height="1dp"
+            android:width="316dp"
+            android:height="1dp"
+            android:viewportWidth="316"
+            android:viewportHeight="1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="360dp">
+
+            <group>
+
+                <clip-path android:pathData="M0.5 0.5H315.5H0.5Z" />
+
+            </group>
+
+            <path
+                android:pathData="M0.5 0.5H315.5H0.5Z"
+                android:strokeWidth="1"
+                android:strokeColor="#000000" />
+
+        </vector>
+
+        <vector
+            android:id="@+id/vector"
+            android:layout_width="361dp"
+            android:layout_height="1dp"
+            android:width="316dp"
+            android:height="1dp"
+            android:viewportWidth="316"
+            android:viewportHeight="1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="589dp">
+
+            <group>
+
+                <clip-path android:pathData="M0.5 0.5H315.5H0.5Z" />
+
+            </group>
+
+            <path
+                android:pathData="M0.5 0.5H315.5H0.5Z"
+                android:strokeWidth="1"
+                android:strokeColor="#000000" />
+
+        </vector>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="38dp"
+            android:layout_height="35dp"
+            android:tint="#000000"
+            app:srcCompat="@android:drawable/ic_menu_help"
+            tools:layout_editor_absoluteX="378dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <!-- Rectangle 1 -->
+
+    <!-- drawable/rectangle_1.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="375dp"
+        android:height="63dp"
+        android:viewportWidth="375"
+        android:viewportHeight="63"
+        tools:ignore="MissingConstraints">
+
+    </vector>
+
+
+</android.support.constraint.ConstraintLayout>
